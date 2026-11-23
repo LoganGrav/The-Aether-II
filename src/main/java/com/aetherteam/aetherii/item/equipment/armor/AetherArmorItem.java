@@ -10,8 +10,4 @@ public class AetherArmorItem extends Item {
         super(properties);
     }
 
-    @Override
-    public boolean supportsEnchantment(ItemStack stack, Holder<Enchantment> enchantment) {
-        return false;
-    }
 }
